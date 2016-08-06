@@ -112,7 +112,6 @@ p {
 	position: relative;
 	width: 100%;
 	margin: 0 auto 100px auto;
-	padding: 30px 15px 30px 10%; /* FIXME  why percent on left (box sizing maybe?)??*/
 }
 
 .merchandise__text {
@@ -192,6 +191,7 @@ p {
 
 	.merchandise {
 		overflow: auto;
+		padding: 30px 15px 30px 10%; /* FIXME  why percent on left (box sizing maybe?)??*/
 		border: 1px solid black;
 	}
 
