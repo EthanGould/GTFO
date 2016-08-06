@@ -1,0 +1,241 @@
+* {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+}
+
+.site-container {
+	max-width: 960px;
+	margin: 0 auto 50px auto;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.header	{
+	width: 100%;
+	border: 1px solid black;
+	background: url('http://rs1176.pbsrc.com/albums/x325/Rawwr-Sleepy-Dinosauur05/Kawaii%20Fruit%20Gifs/lisademars1176737736.gif~c200');
+	background-size: 20%;
+	background-color: skyblue;
+}
+
+.header__text {
+	margin: 0;
+	padding: 32px 0;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 800;
+	font-style: italic;
+	text-shadow: 2px 2px white;
+	font-size: 80px;
+	text-align: center;
+}
+
+
+
+
+
+
+.nav {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.nav__items {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav__item {
+	width: 100%;
+	float: left;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.nav__item a {
+	position: relative;
+	padding: 5px 15px 5px 30px;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	border: 1px solid black;
+}	
+
+.nav__item a:hover {
+	background-repeat: no-repeat;
+	box-shadow: 2px 3px grey;
+}
+
+.nav__item span {
+	position: absolute;
+	left: 5px;
+	height: 16px;
+	width: 15px;
+	background-size: cover;
+	background-image: url('http://www.cherryorchard.com/cherry.gif');
+}
+
+
+
+
+
+
+
+.info {
+	width: 100%;
+	margin: 0 auto 50px auto;
+	padding: 10px 15px;
+}
+
+.info__text {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.nutritional-value {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.nutritional-value img {
+	width: 100%;
+}
+
+
+
+
+
+.merchandise {
+	position: relative;
+	width: 100%;
+	margin: 0 auto 100px auto;
+	padding: 30px 15px 30px 10%; /* FIXME  why percent on left (box sizing maybe?)??*/
+}
+
+.merchandise__text {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+
+.merchandise__header {
+	font-size: 28px;
+	text-align: center;
+}
+
+.tshirt {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 40%;
+	transform: rotate(15deg);
+}
+
+.wiggle {
+	transform: rotate(-15deg);
+}
+
+
+
+
+
+
+
+.ebreezy-call-out {
+	text-align: center;
+}
+
+.ebreezy-call-out a {
+	color: black;
+}
+
+
+@media screen and (min-width: 768px) {
+
+	.header {
+		background-size: 10%;
+	}
+
+	.header__text {
+		padding: 48px 0;
+	}
+	
+	.info {
+		width: 100%;
+		margin-bottom: 100px;
+	}
+
+	.main-info {
+		width: 100%;
+		overflow: auto;
+	}
+	
+	.nutritional-value {
+		width: 35%;
+		float: left;
+	}
+
+	.info__text-wrap {
+		width: 60%;
+    float: left;
+    margin-top: 80px;
+    padding-right: 5%;
+	}
+
+
+	.nav__item {
+		width: 33%;
+	}
+
+	.merchandise {
+		overflow: auto;
+		border: 1px solid black;
+	}
+
+	.merchandise__text {
+		float: left;
+		width: 60%;
+	}
+
+	.tshirt {
+		width: 15%;
+		float: left;
+		padding: 0 2.5%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
