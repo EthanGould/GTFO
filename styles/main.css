@@ -131,16 +131,17 @@ p {
 	margin: 0 auto;
 	padding: 0 40%;
 	transform: rotate(15deg);
+
+	animation-name: wiggle;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
 }
 
-.wiggle {
-	transform: rotate(-15deg);
+@keyframes wiggle {
+	0 { transform: rotate(15deg);	}
+	50% { transform: rotate(-15deg); }
+	100% {transform: rotate(15deg); }
 }
-
-
-
-
-
 
 
 .ebreezy-call-out {
